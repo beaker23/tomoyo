@@ -1,7 +1,7 @@
 # tomoyo
 This repository hosts various configuration files to ease the creation of domain policy using TOMOYO's learning mode.
 
-The purpose of this project was originally to create a patternize.conf file that greatly eased creation of domain policy using the learning mode in TOMOYO and is capable of working across different platforms. Within this context its aim is to create whole-system MAC domain policy through the learning mode. While this is the original scope it is still incomplete and may be altered or used as desired to create domain policy only for specific parts of your system.
+The purpose of this project was originally to create a patternize.conf file that greatly eased creation of domain policy using the learning mode in TOMOYO and is capable of working across different platforms. Within this context its aim is to create whole-system MAC domain policy through the learning mode. While this is the original scope it is still incomplete and may be altered or used as desired to create domain policy for specific applications on your system or for whole system MAC.
 
 This was seen as being needed since file systems differ across different platforms and the learning function in TOMOYO can be much simpler to use once a patternize.conf file is created that can create an administrator's desired domain policy. This allows the policy to be more portable across systems, since hardware addresses, installed applications and file systems are likely to differ from system to system. This can cause domain policy to be difficult to port from one system to another if these differences exist.
 
